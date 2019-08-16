@@ -11,5 +11,6 @@ cat << EOF
 
 The documentation is here!
 
-http://XXXXXXXXXXXXXX
+https://tomonoriminegishi.github.io/aws-challenge-3/
+
 EOF
