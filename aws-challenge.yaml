@@ -81,9 +81,7 @@ Resources:
         yum update -y
         yum install -y httpd git
         git clone https://github.com/tomonoriminegishi/aws-challenge-3.git
-        cat aws-challenge-3/etc/99-happyholidays >> /etc/update-motd.d/30-banner
-        chmod 755 /etc/update-motd.d/30-banner
-        update-motd
+        cat aws-challenge-3/etc/99-happyholidays >> /happyholidays
         usermod -a -G apache ec2-user
         chown -R ec2-user:apache /var/www
         chmod 2775 /var/www
